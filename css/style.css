@@ -1,0 +1,23 @@
+/*
+
+  style.css
+
+*/
+
+@font-face{
+    font-family: Norwester;
+    src: url("../fonts/norwester.otf") format("opentype");
+}
+.norwester{
+    font-family: "Norwester", sans-serif;
+}
+.lato{
+    font-family: "Lato", sans-serif;
+}
+.fx2{font-size:3em;}
+
+.shadow{text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);}
+.hover-shadow:hover{text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);}
+
+.bg-navy{background-color:#001f3f;}
+.bg-gold{background-color:#FFDC00;}

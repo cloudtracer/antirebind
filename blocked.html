@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>DNS Rebind Attack Detected</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/tachyons.min.css"/>
+  <link rel="stylesheet" href="css/style.css"/>
+
+</head>
+<body class="lato bg-navy near-black">
+
+  <section class="w-100 vh-100 ph5 pv2 cf f6 f5-m f3-l">
+    <div class="w-100 min-h-100 br4 bg-gold cf pa4">
+      <h1 class="norwester lh-title measure center f4 f3-m f1-l tc"><i class="far fa-exclamation-triangle"></i> DANGER: REBINDING ATTACK DETECTED</h1>
+      <p id="message" class="lh-copy measure center tl">AntiRebind has prevented a DNS rebinding attack on your system. DNS Binding attacks are extremely dangerous and usually sophisticated. Please consider reporting any DNS Rebind attacks detected as they are uncommon.</p>
+      <p id="fqdn" class="lh-copy measure center tl code">Source FQDN: </p>
+      <p id="ip" class="lh-copy measure center tl code">Original IP: </p>
+      <p id="attempt" class="lh-copy measure center tl code">Attempted IP: </p>
+      <p id="url" class="lh-copy measure center tl code">Originating URL: </p>
+      <!-- <p id="allowrebind" class="lh-copy measure center tl"><input type="checkbox"> Allow analyics tracking of rebinding attacks</input></p> -->
+      <p class="lh-copy measure center tl o-60"><a class="link dib w-80 pv2 mb3 bg-dark-gray near-white hover-bg-black tc" href="https://en.wikipedia.org/wiki/DNS_rebinding">Learn More</a><br>
+      <a id="report" class="link dib w-80 pv2 bg-dark-gray near-white hover-bg-black tc" href="#">Close Window</a>
+      <br/><br/><br/><br/><a id="unblock" class="link dib w-80 pv2 bg-dark-gray near-white hover-bg-black tc" href="#">Unblock Domain</a></p>
+    </div>
+  </section>
+
+</body>
+<script src="js/blocked.js"></script>
+</html>
