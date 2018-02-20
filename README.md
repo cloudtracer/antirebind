@@ -9,5 +9,4 @@ Tracks DNS/IP translations through the web requests API and if a domain switches
 
 ## Where can I download?
 
-Its available in the [Chrome Web Store](https://chrome.google.com/webstore/detail/fdicgpiolgkgjjkapjgbehgfefeckmic)
-
+Its available in the [Chrome Web Store](https://chrome.google.com/webstore/detail/anti-rebind/fdicgpiolgkgjjkapjgbehgfefeckmic)
